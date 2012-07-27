@@ -36,4 +36,11 @@
                 <exec.executable>${profiler.java}</exec.executable>
             </properties>
         </action>
+        <action>
+            <actionName>CUSTOM-Sonar</actionName>
+            <displayName>Sonar</displayName>
+            <goals>
+                <goal>sonar:sonar</goal>
+            </goals>
+        </action>
     </actions>

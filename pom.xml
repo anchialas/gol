@@ -8,10 +8,14 @@
   <packaging>jar</packaging>
 
   <name>GameOfLife</name>
-  <url>http://maven.apache.org</url>
+  <url>http://www.bitstorm.org/gameoflife/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <sonar.checkstyle.generateXml>true</sonar.checkstyle.generateXml>
+    <sonar.pmd.generateXml>true</sonar.pmd.generateXml>
+    <!--sonar.cpd.generateXml-->
+    <sonar.findbugs.generateXml>true</sonar.findbugs.generateXml>
   </properties>
 
   <dependencies>
@@ -22,4 +26,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+ 
+      
 </project>
